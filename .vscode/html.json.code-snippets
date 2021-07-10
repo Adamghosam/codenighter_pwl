@@ -1,0 +1,14 @@
+{
+	"PHP Tag":{
+		"prefix": "php",
+		"body":"<?php $1 ?>"
+	},
+	"Inline Echo":{
+		"prefix": "Phpp",
+		"body": "<?=$$1; ?>"
+	},
+	"sam variabel":{
+		"prefix": "sam",
+		"body":"$this->load->view('templates/header', $data);"
+	},
+}
