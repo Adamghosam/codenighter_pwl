@@ -16,22 +16,31 @@
     <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
         <div class="container">
             <a class="navbar-brand" href="#">Ghosam </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler  type=" button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav " style="margin-left: auto;">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active " aria-current="page" href="<?= base_url(); ?>">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Artikel</a>
+                        <a class="nav-link" href="<?= base_url(); ?>artikel">Artikel</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
                     </li>
+                    <li>
+                        <div class="d-flex">
+                            <a class="btn btn-outline-primary" href="<?= base_url(); ?>login">Login</a>
 
+                        </div>
+
+                    </li>
                 </ul>
+
+
+
             </div>
         </div>
     </nav>

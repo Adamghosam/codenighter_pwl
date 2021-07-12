@@ -23,7 +23,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://127.0.0.1/mvc_codenighter/codenighter_pwl';
+$config['base_url'] = 'http://127.0.0.1/mvc_codenighter/codenighter_pwl/blog/';
 
 /*
 |--------------------------------------------------------------------------

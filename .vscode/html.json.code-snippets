@@ -7,8 +7,8 @@
 		"prefix": "Phpp",
 		"body": "<?=$$1; ?>"
 	},
-	"sam variabel":{
-		"prefix": "sam",
+	"this Tag":{
+		"prefix": "this",
 		"body":"$this->load->view('templates/header', $data);"
 	},
 }
