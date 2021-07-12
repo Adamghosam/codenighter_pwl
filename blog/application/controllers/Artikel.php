@@ -15,4 +15,13 @@ class Artikel extends CI_Controller
         $this->load->view('artikel/index', $data);
         $this->load->view('templates/footer');
     }
+
+    public function show()
+    {
+        $data['title'] = 'Artikel';
+        $data['blog'] = $this->Artikel_model->getAllArtikel();
+        $this->load->view('templates/header', $data);
+        $this->load->view('artikel/show', $data);
+        $this->load->view('templates/footer');
+    }
 }
